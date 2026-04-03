@@ -1,4 +1,4 @@
-# KeepScore Shpping Agent
+# KeepScore Shopping Agent
 
 `KeepScore Robust Merge` is a Streamlit shopping intelligence demo for shoe discovery. It combines stateful chat, adaptive recommendation scoring, review-grounded explanation, image-assisted matching, role-based dashboard access, and a lightweight multi-agent orchestration layer.
 
