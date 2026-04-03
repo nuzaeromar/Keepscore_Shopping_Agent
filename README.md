@@ -22,7 +22,7 @@ The app is designed around one central idea:
 ## Quick start
 
 ```bash
-cd merged_keepscore_robust
+cd KeepScore_Shopping_Agent
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -68,9 +68,9 @@ The architecture has four major layers:
 The Streamlit UI lives in:
 
 - `app.py`
-- `src/keepscore_robust/ui.py`
-- `src/keepscore_robust/components.py`
-- `src/keepscore_robust/theme.py`
+- `src/KeepScore_Shopping_Agent/ui.py`
+- `src/KeepScore_Shopping_Agent/components.py`
+- `src/KeepScore_Shopping_Agent/theme.py`
 
 Responsibilities:
 
@@ -87,7 +87,7 @@ The UI does not compute ranking logic itself. It delegates work to `KeepScoreEng
 
 The orchestrator is:
 
-- `src/keepscore_robust/engine.py`
+- `src/KeepScore_Shopping_Agent/engine.py`
 
 The coordinator owns the end-to-end flow for:
 
